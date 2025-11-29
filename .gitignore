@@ -31,3 +31,6 @@ tomcat/
 # Certificate revocation lists (can be regenerated)
 crl/*.crl
 
+# Exclude documentation markdown files
+*.md
+!README.md

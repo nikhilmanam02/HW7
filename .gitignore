@@ -1,0 +1,33 @@
+# Git ignore file for HW7 PKI Project
+
+# Private keys and sensitive files (but we'll keep them for assignment demonstration)
+# ca/*/private/*.key
+
+# Logs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Tomcat (if installed)
+tomcat/
+
+# Large binaries (optional - you may want to commit these)
+# *.jks
+# *.p12
+
+# Certificate revocation lists (can be regenerated)
+crl/*.crl
+
